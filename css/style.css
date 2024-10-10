@@ -25,5 +25,95 @@ ul {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #19A1AE;
 }
+
+.circle-top{
+  position: relative;
+  width: 622px;
+  height: 622px;
+  left: -18px;
+  bottom: 0px;
+  rotate: 135deg;
+  border-radius: 100px;
+  opacity: 0.25;
+}
+
+
+
+
+.title{
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2E3349;
+  margin-top: 72px;
+}
+
+.number{
+  color: #6B7082;
+  font-weight: 400;
+  margin: 0;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  
+}
+
+.text{
+  margin: 0;
+  font-size: 18px;
+}
+
+.text-low{
+  font-size: 10px;
+  color: #6B7082;
+}
+
+
+.container{
+  position: relative;
+  width: 326px;
+  height: 374px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+@media screen and (width>768){
+  .container{
+    display: flex;
+  }
+
+}
+
+.container::before{
+  content: "";
+  position: absolute;
+  width: 326px;
+  height: 1px;
+  background-color: #E8E9EC;
+  left: 0px;
+  bottom: 88px;
+
+}
+
+.photo{
+  position: absolute;
+  border-radius: 100px;
+  width: 96px;
+  height: 96px;
+  top: 92px;
+  left: 115px;
+  box-shadow: 0 0 0 5px white;
+}
+
+
+
