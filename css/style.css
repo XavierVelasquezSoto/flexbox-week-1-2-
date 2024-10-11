@@ -29,17 +29,6 @@ body {
   background-color: #19a1ae;
 }
 
-.circle-top {
-  position: relative;
-  width: 622px;
-  height: 622px;
-  left: -18px;
-  bottom: 0px;
-  rotate: 135deg;
-  border-radius: 100px;
-  opacity: 0.25;
-}
-
 .back {
   padding: 147px 24px 147px 24px;
 }
