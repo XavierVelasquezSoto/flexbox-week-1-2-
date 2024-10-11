@@ -40,8 +40,10 @@ body {
   opacity: 0.25;
 }
 
+.back{
+  padding: 147px 24px 147px 24px;
 
-
+}
 
 .title{
   margin: 0;
@@ -90,11 +92,15 @@ body {
 @media screen and (width>768){
   .container{
     display: flex;
+    align-items: center;
   }
 
 }
 
-.container::before{
+.card{}
+
+
+.container::after{
   content: "";
   position: absolute;
   width: 326px;
@@ -114,6 +120,3 @@ body {
   left: 115px;
   box-shadow: 0 0 0 5px white;
 }
-
-
-
